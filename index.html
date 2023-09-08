@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+</head>
+<body>
+    <!-- esto es un parrafo-->
+    <p id="primerparrafo">   hola mundo soy programador</p>
+    <!-- etiqueta es un salto de linea -->
+    <br> 
+    <!-- soy un titulo-->
+    <h1> Soy un titulo</h1>
+    <h2>soy un subtitulo</h2>
+    <!-- imagen-->
+    <img src="https://th.bing.com/th/id/R.5473e4448e91f158e30d4447df777aff?rik=%2bw1sZ0szrUQvMg&riu=http%3a%2f%2ftusimagenesde.com%2fwp-content%2fuploads%2f2016%2f04%2fgatos-tiernos-1.jpg&ehk=NCRe0nwAck2MEG3%2bazq%2b1NueTQNh0uJEpxDxAFmI12s%3d&risl=&pid=ImgRaw&r=0
+    " alt="mi gato" width="400px">
+    <img src="imagen/OIP.jpg" alt="gato co nbotas" width="300px">
+    <!-- videos-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/klZ5APOFZoI?si=5Gua2kTzlcp0Q1mn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DzB80tCCPWE?si=w5_FSXaZ0e7vlLug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vBpQ1SlfVtU?si=Z0HbXqTq5T9sLuPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style><a href="https://www.eireportingonline.com">ei reporting online</a></div></div>
+    <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=maracaibo&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style><a href="https://www.eireportingonline.com">ei reporting online</a></div></div>
+    <!-- video local-->
+    
+    <video src="vide"></video>\
+
+    <!-- listas -->
+    <!-- listas ordenas-->
+    <ol>
+        <li>comida</li>
+        <li>juego<il>
+        <li>hobbie</li>
+    </ol>
+    <!-- listas no ordenadas-->
+    <ul>
+        <li>comida</li>
+        <li>juego</li>
+        <li>hobbie</li>
+    <ul>
+
+        <!-- TABLAS-->
+
+     <TABLE>
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>edad</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Marcos</td>
+                <td>duque</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>jose</td>
+                <td>moyan</td>
+                <td>19</td>
+        
+            </tr>
+        </TABLE>
+
+        <!-- boton-->
+        <button>presioname</button>
+        <button> no tocar</button>
+
+        <!-- ancla o hipervinculo-->
+        <a id="ancla" href="https://www.google.com/" target="_blank">soy un ancla</a>
+        <a href="#primerparrafo"><button>regresar</button></a>
+
+        <!-- inputs entradas-->
+        <input type="text" placeholder="su nombre" name="nombre" id="input-name">
+        <input type="email" placeholder="correo ingresar" name="corre" id="inputemail">
+        <input type="password" placeholder="ingrese contrasena" name="clave" id="inputclave">
+        <input type="date" name="fecha" id="inputdate">
+        <input type="color" name="color" id="inputcolor">
+        <input type="submit" value="enviar">
+
+        <br>
+        <br>
+
+        <!-- formularios-->
+
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="ingrese su nombre" name="nombre" id="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="ingrese su apellido" name="apellido" id="apellido">
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="correo" id="email" placeholder="ingrese su correo">
+            <br>
+            <label for="pais">seleccione pais</label>
+            <select name="pais" id="pais">
+                <option value="+58">venezuela</option>
+                <option value="+59" disabled selected>colombia</option>
+                <option value="hola xd">argentina</option>
+                <option value="">venezuela campeon</option>
+            </select>
+            <br>
+
+            <input type="radio" name="sexo" id="masculino" value="masculino">
+            <label for="">masculino</label>
+            <input type="radio" name="sexo" id="femenino" value="femenino">
+            <label for="">femenino</label>
+            <input type="radio" name="sexo" id="" value="otro">
+            <label for="">otro</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">carro</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">moto</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">casa</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label for="">acepto condiciones</label>
+            <br>
+            <input type="submit" value="enviar formulario">
+        </form>
+
+
+
+
+
+
+
+        <br>
+        <br>
+
+
+
+<body>        
+</html>
