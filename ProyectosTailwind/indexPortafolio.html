@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+<body class="h-screen">
+    <nav id="regresar"  class="w-[100%] h-20  fixed flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-[54%]">
+        <div class="text-3xl font-extrabold"data-aos="zoom-in-down">
+            <h1 class="bg-clip-text text-transparent bg-gradient-to-b from-sky-500 to-indigo-500 mt-5 sm:mt-0">Marcos</h1>
+        </div>
+        <ul class="flex gap-5 font-serif text-black hover:cursor-pointer" data-aos="fade-left">
+            <li class="w-10 h-10 rounded-full bg-[rgb(255,255,255,0.2)]"><img src="image/discord-logo-discord-icon-transparent-free-png.webp" alt=""></li>
+            <li class="flex justify-center items-center w-10 h-10 rounded-full bg-[rgb(255,255,255,0.2)]"><img src="image/telegram_macos_bigsur_icon_189662.png" width="33px" alt=""></li>
+            <li class="flex justify-center items-center w-10 h-10 rounded-full bg-[rgb(255,255,255,0.2)]"><img src="image/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.webp" width="100%" alt=""></li>
+            <li class="flex justify-center items-cente w-10 h-10 rounded-full bg-[rgb(255,255,255,0.2)]"><img src="image/WhatsApp_icon.png.webp" width="" alt=""></li> 
+        </ul>
+    </nav>
+    <!--main section-->
+    <main class="h-[100%] w-[100%] bg-[url(https://images.hdqwalls.com/download/red-mountains-morning-minimal-4k-dn-1440x900.jpg)] bg-cover  bg-no-repeat bg-fixed flex items-center justify-center">
+        <div class="flex justify-center items-center w-[35vh] h-[67vh]">
+            <div class="bg-[rgb(255,255,255,0.3)] w-[100%] h-[100%] rounded-2xl flex justify-center
+            "data-aos="fade-down">
+                <div>
+                    <img class="rounded-full p-5" src="image/Portafolio.jpg" alt="">
+                 <div>
+                 <div class="flex flex-col justify-center items-center">
+                    <h1 class="font-sans font-bold text-[25px] text-white">Marcos Duque</h1>
+                    <span class="font-mono text-white">Future Web Developer</span>
+                </div>
+                
+            </div>
+            <div class="flex justify-center items-center mt-5 font-mono text-white">
+                <span>Skill Progression</span>
+            </div>
+            <div class="bg-white/20">
+                <ul class="flex justify-center items-center gap-2">
+                    <li><img src="image/html.png" width="30px" alt=""></li>
+                    <li><img src="image/css.png" width="30px" alt=""></li>
+                    <li><img src="image/sass.png" width="30px" alt=""></li>
+                    <li><img src="image/tailwind.png" width="30px" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    <!--sobre mi - portafolio-->
+    <section class="h-screen bg-transparent bg-[url(https://i.pinimg.com/originals/de/1d/df/de1ddf9ee30e08e15460626b919ef87e.jpg)] bg-cover  bg-no-repeat bg-fixed flex justify-center items-center flex-col gap-10">
+        <div class="bg-[rgb(255,255,255,0.2)] w-[60%] h-[60vh] mt-40 rounded-3xl p-5 gap-5">
+            <div id="sobre-mi" class="bg-[rgb(255,255,255,0.6)] w-[100%] sm:w h-[50%] rounded-3xl p-5 overflow-auto  ">
+                <h1>Sobre mi</h1>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit eveniet atque adipisci dolorem iure nostrum eligendi aut consequatur harum. Repellat temporibus aperiam asperiores officia sit nesciunt possimus doloribus adipisci ad.</span>
+            </div>
+            <div class="bg-[rgb(255,255,255,0.6)] w-[20%] h-[40%] rounded-3xl relative top-5 flex justify-center items-center" >
+                <div class="">
+                    <span>Proyect</span>
+                    <a href="https://github.com/MDRO0/Curso12.git" >
+                        <img class="w-10" src="image/git.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="h-[50px] w-[210px] bg-[rgb(255,255,255,0.2)] flex justify-center items-center rounded">
+            <a href="#regresar">
+                <button class="bg-[rgb(255,255,255,0.6)] w-[200px] h-[40px]">regresar</button>
+            </a>
+            
+        </div>
+
+        
+    </section>
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+   
+
+
+</body>
+</html>

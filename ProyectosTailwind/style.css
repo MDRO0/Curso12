@@ -1,0 +1,14 @@
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+#sobre-mi::-webkit-scrollbar{
+    width: 15px;
+}
+
+#sobre-mi::-webkit-scrollbar-thumb{
+    background: grey;
+}
